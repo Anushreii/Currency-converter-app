@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: white; */
+    /* background-image: url(bg.jpg); */
+}
+
+/* .container{
+    /* background-color:#dacfcf; 
+    padding: 1rem;
+    border-radius: 1rem;
+    min-height: 50vh;
+    width: 45vh; */
+
+    p{
+        font-size: 20px;
+        font-weight: bold;
+
+
+    }
+
+    .container {
+        /* background: rgba(255, 255, 255, 0.8); Semi-transparent white */
+        background: rgba(42, 76, 104, 0.8);
+        border-radius: 15px; /* Rounded corners */
+        padding: 20px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+        width: 300px;
+        text-align: center;
+    }
+    
+
+form{
+    margin: 2rem 0rem 0;
+}
+
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem ;
+
+}
+
+.dropdown i{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.select-container img{
+    max-width: 1.5rem;
+}
+
+.select-container{
+    display: flex;
+    width: 5.5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+}
+
+.exchange-rate{
+    margin: 2rem 0 2rem;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(224, 214, 203);
+
+}
+
+button{
+    height: 3rem;
+    /* background-color: #f45dd0; */
+    /* background: rgba(42, 76, 104, 0.8); */
+    background: rgb(67 87 105 / 44%);
+
+    color: #0a0a0a;
+
+    font-size: 1.10rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
