@@ -1,3 +1,3 @@
 # Currency-converter-app
  
-## HTML CSS JAVASCRIPT
+HTML CSS JAVASCRIPT Project
